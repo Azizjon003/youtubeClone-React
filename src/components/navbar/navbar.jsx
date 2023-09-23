@@ -16,6 +16,7 @@ const Navbar = () => {
         zIndex: 999,
         background: color.primary,
       }}
+      // height={"5vh"}
     >
       <Link to="/">
         <img src={Logo} alt="" height={30} />
