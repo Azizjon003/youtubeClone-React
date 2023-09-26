@@ -1,6 +1,6 @@
-import { Box, Button, Container } from "@mui/material";
+import { Box, Container } from "@mui/material";
 import { useEffect, useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { ApiService } from "../../services/api.service.js";
 import ChannelCard from "../channelCard/channelCard.jsx";
 import { Loader, VideoContent } from "../index.jsx";

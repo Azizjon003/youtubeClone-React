@@ -21,9 +21,8 @@ const Search = () => {
       }
     };
     getData();
-    console.log(searchResults);
   }, [search]);
-  console.log(search);
+
   return (
     <>
       <Box p={2} sx={{ height: "90vh" }}>
