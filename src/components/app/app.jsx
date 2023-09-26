@@ -1,7 +1,6 @@
-import { Box, Stack } from "@mui/material";
-import Button from "@mui/material/Button";
+import { Box } from "@mui/material";
 import { Route, Routes } from "react-router-dom";
-import { Channel, Main, Navbar } from "../";
+import { Channel, Main, Navbar, Search, VideoDetail } from "../";
 const App = () => {
   return (
     <Box>
@@ -9,6 +8,8 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/channel/:id" element={<Channel />} />
+        <Route path="/search/:search" element={<Search />} />
+        <Route path="/video/:id" element={<VideoDetail />} />
       </Routes>
     </Box>
   );
